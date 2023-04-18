@@ -1,0 +1,95 @@
+@media screen and (max-width:320px){
+    .container{
+        flex-direction: column;
+    }
+
+    .nav{
+        font-size: 0.5rem;
+        flex-direction: row;
+        padding-top: 8px;
+        height: 30px;
+        gap: 10px;
+ 
+    }
+    .icons{
+        margin-left: 30px;
+        word-spacing: 10px;
+    }
+    .offer{
+        font-size: 0.5rem;
+        word-spacing: 0px;
+        height: 40px;
+    }
+
+    .home-page{
+        min-height: 95vh;
+        min-width: auto;
+        background-size: cover;
+
+    }
+    .home-page h1{
+        font-size: 2.5rem;
+    }
+    .home-page p{
+        font-size: 0.8rem;
+    }
+    .trends{
+        gap: 20px;
+    }
+    .trending h1{
+        font-size: 1rem;
+    }
+    .genders{
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+    .gallery{
+        width: 320px;
+        height: 200px;
+    }
+    .review{
+        min-height: 30vh;
+        padding: 0px 10px;
+    }
+    .review h1{
+        font-size: 1.5rem;
+    }
+    .review p{
+        font-size: 0.6rem;
+    }
+    .box{
+        width: 100%;
+        grid-auto-rows: 300px;
+    }
+    .all-items{
+        grid-row: span 1;
+        grid-column: span 3;
+    }
+    .sub-newsletter{
+        text-align: center;
+    }
+
+    .subscribe{
+        padding-top: 30px;
+    }
+    .subscribe p{
+        font-size: 0.8rem;
+    }
+    
+    .sub-form input{
+         padding:15px 10px ;
+         margin-left: 10px;
+    }
+    .sub-form a{
+      margin-top: 200px;
+      padding: 11px;
+    }
+    .social-media{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer{
+        align-items: center;
+        gap: 5px;
+    }
+}
