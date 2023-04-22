@@ -24,11 +24,11 @@
     .home-page{
         min-height: 95vh;
         min-width: auto;
-        background-size: cover;
 
     }
     .about-style{
         padding-right: 85px;
+        padding-top: 40px;
     }
     .home-page h1{
         font-size: 2.5rem;
@@ -57,6 +57,7 @@
     .review{
         min-height: 30vh;
         padding: 0px 10px;
+        margin-top: 30px;
     }
     .review h1{
         font-size: 1.5rem;
