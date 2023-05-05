@@ -12,21 +12,25 @@
 <body>
     <!-- navigation section starts -->
 <div class="container nav">
+    <div class="nav-logo" id="nav-logo"><h1>ME.</h1></div>
+       <div id="nav-links" class="nav-links active"> 
         <a href="#">Home</a>
         <a href="#">Men</a>
         <a href="#">Women</a>
         <a href="#">Baby </a>
         <a href="#">Pages</a>
         <a href="#">Blog</a>
+    
         <div class="icons">
             <a href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
             <a href="#"><i class="fa-regular fa-user fa-xl"></i></a>
-            <a href="#"><i class="fa-solid fa-cart-shopping fa-xl"></i></a></div>
-        <!-- <a href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
-        <a href="#"><i class="fa-regular fa-user fa-xl"></i></a>
-        <a href="#"><i class="fa-solid fa-cart-shopping fa-xl"></i></a> -->
-        
-    
+            <a href="#"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+        </div>  
+        </div>      
+        <div class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
 </div>
 
 <!-- navigation section ends -->
@@ -273,7 +277,18 @@
 
 
 
-<script src="script.js"></script>
+<script>
+
+const navLinks = document.getElementById('nav-links')
+const hamBurger = document.getElementById('hamburger')
+
+hamBurger.addEventListener('click', ()=>{
+    navLinks.classList.toggle('active')
+    hamBurger.classList.toggle('active')
+})
+    
+
+</script>
 <script src="https://kit.fontawesome.com/ff1f765301.js" crossorigin="anonymous"></script>
 </body>
 </html>

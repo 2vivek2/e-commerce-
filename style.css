@@ -17,12 +17,32 @@ body{
 /*nav section starts*/
 
 .nav{
-    padding-top: 20px;
+    display: flex;
+    align-items: center;
     gap: 40px;
     justify-content: center;
     font-size: 1.1rem;
     background-color: rgb(247, 247, 247);
     height: 70px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: skew(-20deg);
+    height: 60px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #222;
+    color: aliceblue;
+    margin-right: 200px;
+}
+.nav-logo h1{
+    font-size: 2.5rem;
+}
+.nav-links{
+    display: flex;
+    gap: 40px;
 }
 a{
     text-decoration: none;
@@ -37,6 +57,11 @@ a{
 .icons{
     word-spacing: 30px;
     margin-left: 70px;
+}
+.hamburger{
+    cursor: pointer;
+    font-size: 1.6rem;
+    display: none;
 }
 
 /*nav section ends*/
